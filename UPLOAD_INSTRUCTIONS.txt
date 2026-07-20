@@ -1,0 +1,10 @@
+GAGE HARTER PORTFOLIO — FLAT GITHUB UPLOAD
+
+Upload every file in this folder directly to the main/root level of the
+gageharter.github.io repository. No folders are needed.
+
+Important:
+- Replace the existing index.html when GitHub asks.
+- Keep filenames exactly as provided.
+- Commit the upload directly to the main branch.
+- Wait 1–3 minutes, then refresh https://gageharter.github.io with Ctrl+Shift+R.
