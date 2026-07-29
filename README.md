@@ -6,7 +6,7 @@ A static, privacy-conscious professional portfolio designed for GitHub Pages.
 
 1. Create a free GitHub account with a professional username.
 2. Create a **public** repository named `YOURUSERNAME.github.io`.
-3. Upload **the contents of this folder** to the repository root. Do not upload the outer folder itself.
+3. Upload **all files in this folder** to the repository root. This package is intentionally folder-free.
 4. Open the repository's **Settings → Pages**.
 5. Under **Build and deployment**, choose **Deploy from a branch**.
 6. Select branch **main** and folder **/(root)**, then save.
@@ -17,20 +17,21 @@ A static, privacy-conscious professional portfolio designed for GitHub Pages.
 - `index.html` — site content and structure
 - `styles.css` — layout and visual design
 - `script.js` — mobile navigation and subtle scroll effects
-- `assets/documents/` — public resume and portfolio PDFs
-- `assets/images/favicon.svg` — browser icon
+- `*.webp` — optimized classroom and curriculum photography stored at the repository root
+- `Gage_Harter_*.pdf` — public resume and portfolio documents
+- `favicon.svg` — browser icon
 
 ## Privacy choices already applied
 
-The site does not publish a home address, transcripts, background checks, license/account numbers, references, or student-identifying information.
+The site does not publish a home address, transcripts, background checks, license/account numbers, references, or student names. A supplied image with a readable student name badge was intentionally excluded.
 
-## Optional professional photo
+## Photography
 
-The current design uses a polished `GH` monogram, so the site is ready without a photo. A professional headshot can be added later by replacing the monogram block in `index.html` or by asking ChatGPT to update the site package.
+The site uses a curated set of classroom, international-teaching, and Mission Design images. The two lower-resolution international photos were resized with conventional Lanczos interpolation, tonal correction, and sharpening. No generative image reconstruction was used.
 
 ## Before publishing
 
 - Verify the email address and location.
 - Open each PDF link.
 - Review every date and title.
-- Do not add student photographs unless you have documented permission.
+- Confirm that documented permission covers every published student photograph.
